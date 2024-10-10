@@ -1,0 +1,367 @@
+html{
+  box-sizing:border-box; 
+     scroll-behavior: smooth;
+  }
+  
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+  
+  
+  body{
+     margin:0;
+  }
+  #main{
+    background-color:pink;
+    height:80px;
+    padding:20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+  width:100%;
+  }
+  #head{
+    margin:0;
+    font-size:2rem;
+  }
+  .menu {
+    gap:2rem;
+    display:flex;
+    list-style:none; 
+  }
+  #title{
+  font-size:1.5rem;
+   padding:10px; 
+   margin:70px;
+  }
+  #welcome{
+    width:40%;
+    height:20%;
+    font-size:1.2rem;  
+   margin:20px;
+   margin-top:-70px;
+  }
+  #icon{
+    width:30px;
+    cursor:pointer;
+   justify-content:end;
+    align-items:end;
+  }
+  #hero img {
+     border-radius:50%;
+    margin-top:-120px;
+    width:250px
+  }
+  #photo{
+    display:flex;
+    justify-content:center;
+    margin-left:350px;
+    margin-top:-125px;
+  
+  }
+  #text-myprojects{
+    margin-left:20px;  
+    margin-top:50px;
+  }
+  #myprojects-button{
+    color:black;
+    width:100px;
+    height:30px;
+    background-color:pink; 
+  font-size:1rem;
+    border-radius:5px;
+    margin-left:50px;
+    text-align:center;
+  padding:5px;
+  }
+  button:hover{
+    cursor:pointer;
+  }
+  a{
+    text-decoration:none;
+    color:black;
+     
+  }
+  a:hover{
+    color:grey;
+  }
+  .about_me{
+    font-size:1.6rem;
+    text-align:center;
+    background-color:pink;
+  }
+  
+  .know,.journey{
+      color:grey;
+      text-align:center;
+  }
+  
+  #profile{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin-top:20px; 
+   margin-left:40px;
+  
+  }
+  .about-image img{
+    margin-left:500px;
+  border-radius:50%;
+    width:300px;
+    margin-top:-350px;
+  }
+  .name{
+    font-size:1.3rem;
+  }
+  .name:hover,.education:hover {
+    color:#C11C84;
+  }
+  .myprojects h2,.contact h2{
+    text-align:center;
+    background-color:pink;
+    
+  }
+  #box{
+    width:100%;
+    height:500px;
+    display:flex;
+  justify-content:center;
+  
+  }
+  .box1,.box2,.box3{
+    width:30%;
+    height:300px;
+  margin:10px;
+     vertical-align:top;
+  box-shadow:0px 4px 6px -1px rgba(0,0,0,.5);  
+  }
+  .box1 img,.box2 img,.box3 img{
+     width:100%;
+    height:300px;  
+    border-radius:5px;
+   transition:0.7s ; 
+  }
+  .text,.explanation{
+     text-align:center;
+  }
+  .box1 img:hover,.box2 img:hover ,.box3 img:hover{
+    transform:scale(1.1);
+  }
+  
+  .contact-box{
+  height:400px;
+    width:500px;
+    background-color:pink;
+    display:flex;
+    justify-content:center;
+  border-radius:5px;
+   text-align: center;
+   position: relative;
+  }
+  .contact- {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+    width:100%;
+  }
+  .contact-box h3{
+    color:black;
+     font-size:1.6rem;
+   position: absolute;
+    top: 30px;
+  }
+  .form input{
+  border-radius:5px;
+   height: 30px; 
+    width: 80%; 
+    margin-bottom: 15px; 
+    padding: 5px; 
+    box-sizing: border-box;
+  
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    margin-top: 40px;
+  }
+  .form button{
+    border-radius:5px;
+    height:30px;
+    width:100px;
+    background-color:#A9A9A9;
+    font-size:1rem;
+    margin-top:10px;
+  }
+  .form textarea{
+    width:80%;
+    height:100px;
+    border-radius:5px;
+  }
+  .form button:hover{
+    background-color:#fffd8d;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    #main {
+      height: 40px;
+      padding: 10px;
+    }
+    #head {
+      font-size: 1.2rem;
+    }
+    #title{
+      margin:20px;
+    }
+    #welcome {
+      width: 80%;
+      height: 20%;
+      font-size: 1rem;
+      text-align:center;
+     padding:10px;
+    }
+  
+    #photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:10px;
+      margin-top: 130px; 
+      width: 100%; 
+      height: auto;
+    }
+    
+    #myprojects-button {
+      width: 30%; 
+      height: 40px;
+      font-size: 1rem; 
+      padding: 10px; 
+    }
+  
+    #text-myprojects {
+      margin-left: 5px;
+      margin-top: 20px;
+    }
+    
+    #profile {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    
+    .about-image img {
+      margin-left: 0;
+      width: 150px;
+      margin-top: 0;
+    }
+    
+    #box {
+      height: 430px;
+      display:inline-block;
+    
+    }
+    
+    .box1, .box2, .box3 {
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+      
+    }
+    
+    .contact-box {
+      height: 250px;
+      width: 300px;
+      margin-top:-50px;
+    }
+    
+    .contact-box h3 {
+      font-size: 1rem;
+      margin-top: -20px;
+    }
+    
+    .form button {
+      height: 30px;
+    }
+  }
+  @media only screen and (min-width:481px)and (max-width: 768px) {
+    #main {
+      height: 60px;
+      padding: 15px;
+    }
+    #head {
+      font-size: 1.5rem;
+    }
+    #title{
+      margin:30px;
+    }
+    #welcome {
+      width: 80%;
+      height: 20%;
+      font-size: 1.2rem;
+      text-align:center;
+     padding:10px;
+    }
+  
+    #photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:10px;
+      margin-top: 150px; 
+      width: 100%; 
+      height: auto;
+    }
+    
+    #myprojects-button {
+      width: 40%; 
+      height: 40px;
+      font-size: 1rem; 
+      padding: 10px; 
+    }
+  
+    #text-myprojects {
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    
+    #profile {
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+    
+    .about-image img {
+      margin-left: 0;
+      width: 200px;
+      margin-top: 0;
+    }
+    
+    #box {
+      height: 600px;
+    }
+    
+    .box1, .box2, .box3 {
+      width: 45%;
+      height: 250px;
+      margin: 10px;
+    }
+    
+    .contact-box {
+      height: 350px;
+      width: 400px;
+      margin-top:-50px;
+    }
+    
+    .contact-box h3 {
+      font-size: 1.5rem;
+      margin-top: -20px;
+    }
+    
+    .form button {
+      height: 35px;
+    }
+  }
+  
